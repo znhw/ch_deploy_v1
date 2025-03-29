@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   title: "city hypes",
   description: "",
   icons: {
-    icon: "/cityhypes.png"
+    icon: "./cityhypes.png"
   }
 };
 
