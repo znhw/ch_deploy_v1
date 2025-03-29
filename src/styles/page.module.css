@@ -16,7 +16,7 @@
 }
 
 .headerTexture {
-    background-image: url("./images/blue_texture.jpg");
+    background-image: url("/images/blue_texture.jpg");
     height: 200px;
     width: 100%;
     background-size: cover;
@@ -118,7 +118,7 @@
     margin: auto;
     text-align: center;
     min-height: 500px;
-    background-image: url('./images/blue_texture.jpg');
+    background-image: url("/images/blue_texture.jpg");
     background-size: cover;
     background-position: center;
     display: flex;
