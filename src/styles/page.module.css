@@ -1,0 +1,216 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+}
+
+.logo {
+    font-size: 50px;
+    margin: 0;
+    font-family: "DM Sans";
+    font-weight: 500;
+    background-color: aliceblue;
+    color: black;
+}
+
+.headerTexture {
+    background-image: url("/images/blue_texture.jpg");
+    height: 200px;
+    width: 100%;
+    background-size: cover;
+    background-position: top;
+}
+
+.intro {
+    text-align: right;
+    width: 100%;
+    margin-top: 80px;
+    margin-bottom: 40px;
+    font-family: "DM Sans";
+}
+
+.highlightIntro {
+    font-weight: 200;
+    font-size: 60px;
+    text-align: right;
+    background-color: white;
+    color: #055FF1;
+}
+
+.keywords {
+    color: #055FF1;
+    background-color: #eac6f5;
+    background-color: #7871F1;
+    color: white;
+}
+
+.services {
+    width: 100%;
+    padding: 0;
+    padding: 40px 0 15px 0;
+}
+.services h2 {
+    font-weight: 300;
+    text-align: center;
+    margin-top: 0;
+    color: #404C34;
+    font-size: 28px;
+}
+
+.services ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.services li {
+    list-style-type: none;
+    padding: 15px 30px;
+    margin:  10px 5px;
+    font-size: 40px;
+    border-radius: 70px;
+    width: fit-content;
+    float: left;
+    color: black;
+    border: #055FF1 solid 2px ;
+    font-weight: 200;
+}
+
+.services li:hover{
+    background-color: #7871F1;
+    color: aliceblue;
+}
+
+.vertical1 {
+    height: 300px;
+    width: 1px;
+    background-color: #7871F1;
+    border: #7871F1 solid 0;
+    
+}
+
+.about {
+  width: 65%;
+  margin: auto;
+  text-align: center;
+}
+
+.highlight{
+    font-weight: 200;
+    font-size: 45px;
+    background-color: white;
+    padding-left: 80px;
+    padding-right: 50px;
+    color: #055FF1;
+}
+
+.vertical2 {
+    height: 100px;
+    width: 1px;
+    background-color: #7871F1;
+    border: none;
+}
+
+.contact {
+    margin: auto;
+    text-align: center;
+    min-height: 500px;
+    background-image: url('/images/blue_texture.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.contact h4 {
+    font-size: 35px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.contact p {
+    font-size: 35px;
+    font-weight: 200;
+    margin-top: 0;
+    text-align: center;
+    /* margin: auto; */
+    color: black;
+}
+
+@media screen and (max-width: 780px) {
+    .logo {
+        font-size: 30px;
+    }
+    .highlightIntro {
+        font-size: 45px;
+    }
+    .services h2 {
+        font-size: 18px;
+    }
+
+    .services li {
+        font-size: 32px;
+        padding: 10px 20px;
+
+    }
+    .about {
+        width: 85%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .logo {
+        font-size: 25px;
+    }
+    .highlightIntro {
+        font-size: 38px;
+    }
+
+    .services li {
+        font-size: 28px;
+        padding: 8px 20px;
+
+
+    }
+    .about {
+        width: 95%;
+    }
+
+    .highlight {
+        font-size: 35px;
+    }
+
+    .contact p {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .logo {
+        font-size: 20px;
+    }
+    .highlightIntro {
+        font-size: 28px;
+    }
+
+    .services li {
+        font-size: 22px;
+        padding: 5px 15px;
+
+
+    }
+    .about {
+        width: 95%;
+    }
+
+    .highlight {
+        font-size: 28px;
+    }
+
+   
+}

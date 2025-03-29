@@ -1,0 +1,39 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: "DM Sans";
+    width: 94%;
+    margin: auto;
+    background-color: aliceblue;
+
+}
+
+body {
+    border-left: 1px solid #055FF1;
+    border-right: 1px solid #055FF1;
+}
+
+a {
+    padding: 5px;
+    color: white;
+    background-color: #7871F1;
+    margin-left: 10px;
+}
+
+footer p{
+    float: right;
+    font-weight: 100;
+    padding-right: 20px;
+}
+
+footer {
+    margin: auto;
+    margin-top: -10px;
+}
+
+@media screen and (max-width: 550px) {
+    footer p{
+        font-size: 12px;
+    }
+}
